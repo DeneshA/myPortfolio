@@ -1,0 +1,132 @@
+#root {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* font-family: 'Give You Glory', sans-serif; */
+  font-size: 14px;
+  
+  /* font-size: 14px; */
+}
+/* Header top   ---------------------*/
+.header-container-top{
+  width: 100%;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  /* background-color: blueviolet; */
+  
+}
+.header-name-title{
+  width: 20%;
+}
+.header-name-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 5px;
+  /* background-color: blue; */
+}
+.full-name{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* font-style: oblique; */
+ 
+}
+
+.header-first-name{
+  margin-left: 0;
+  font-size: 20px;
+  font-family: 'Give You Glory', sans-serif;
+  font-weight: 900;
+}
+
+.header-second-name{
+  margin-left: 150px;
+  font-size: 20px;
+  font-family: 'Give You Glory', sans-serif;
+}
+.header-title{
+  margin-left: 70px;
+  width: 250px;
+  font-size: 15px;
+  font-family: 'Give You Glory', sans-serif;
+  font-weight: 800;
+  /* font-style: italic; */
+}
+.fisrt-initial{
+  font-size: 35px;
+}
+.header-social-container{
+  /* background-color: rgb(111, 49, 169); */
+  width: 20%;
+  position: relative;
+  bottom: 0;
+  height: 25%;
+  padding: 20px;
+}
+
+.social-ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  
+}
+
+.social-ul li{
+  margin: 0 10px;
+}
+
+.github-icon, .linkedin-icon{
+  height: 50px;
+  width: 50px;
+}
+
+.header-middle{
+  /* background-color: black; */
+  width: 60%;
+}
+.header-social-container{
+  width: 20%;
+}
+
+/* ---------------------------- */
+
+/* Navigation ----------------- */
+.nav-container{
+display: flex;
+flex-direction: row;
+}
+.ul-nav-div{
+  display: flex;
+  flex-direction: flex-end;
+}
+
+.bar-nav{
+  margin-top: 15px;
+  width:30px;
+  height:30px;
+  top: 0;
+  /* background-color: blueviolet; */
+}
+
+.nav-ul{
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  /* padding: 15px 5px 15px 15px; */
+}
+
+.nav-ul li{
+  font-size: large;
+  margin: 5px 25px;
+}
+
+p{
+  margin: 0;
+}
+/* ----------------------------- */
