@@ -4,11 +4,16 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color:#cdd3bd;
+  color: #48522b;
 }
 body{
+  display: flex;
+  flex-direction: column;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   /* font-family: 'Give You Glory', sans-serif; */
   font-size: 14px;
+  /* background-color:#cdd3bd; */
   
   /* font-size: 14px; */
 }
