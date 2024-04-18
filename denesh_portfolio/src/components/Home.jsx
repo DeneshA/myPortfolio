@@ -34,11 +34,36 @@ export default function Home() {
             <div className="project-container">
                 <h1>PROJECTS</h1>
                 <div className="list-projects">
-                    <div className="project-details"></div>
-                    <div className="project-details"></div>
-                    <div className="project-details"></div>
-                    <div className="project-details"></div>
-                    <div className="project-details"></div>
+                    <div className="project-details">
+                        <div className="project-header"><h2>Header</h2></div>
+                        <div className="project-dispay">Display Picture</div>
+                        <div className="project-footer"><h2>Footer</h2></div>
+                    </div>
+                    <div className="project-details">
+                        <div className="project-header"><h2>Header</h2></div>
+                        <div className="project-dispay">Display Picture</div>
+                        <div className="project-footer"><h2>Footer</h2></div>
+                    </div>
+                    <div className="project-details">
+                        <div className="project-header"><h2>Header</h2></div>
+                        <div className="project-dispay">Display Picture</div>
+                        <div className="project-footer"><h2>Footer</h2></div>
+                    </div>
+                    <div className="project-details">
+                        <div className="project-header"><h2>Header</h2></div>
+                        <div className="project-dispay">Display Picture</div>
+                        <div className="project-footer"><h2>Footer</h2></div>
+                    </div>
+                    <div className="project-details">
+                        <div className="project-header"><h2>Header</h2></div>
+                        <div className="project-dispay">Display Picture</div>
+                        <div className="project-footer"><h2>Footer</h2></div>
+                    </div>
+                    <div className="project-details">
+                        <div className="project-header"><h2>Header</h2></div>
+                        <div className="project-dispay">Display Picture</div>
+                        <div className="project-footer"><h2>Footer</h2></div>
+                    </div>
                 </div>
             </div>
         <div>

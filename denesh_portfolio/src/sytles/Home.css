@@ -2,6 +2,8 @@
     --bg-color-green:#cdd3bd;
     --font-color-green: #48522b;
     --dark-bg-color-green:  #242424;
+    --font-color-white:white;
+    --light-dark_bg-color:#6d7556;
 }
 .home-text{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -22,33 +24,87 @@ img {
 }
 
 .aboutme-container, 
-.project-container,
 .work-container{
     
     height: 850px;
 }
+
+
 .project-container{
     
     width: 99%;
+    height: 1200px;
+    margin: auto;
+    overflow: hidden;
    
 }
 .list-projects{
     width: 100%;
     /* border: 2px solid var(--dark-bg-color-green); */
-    height: 800px; 
+    height: 950px; 
     display: flex;
     flex-direction: row;
     gap: 25px;
-    justify-content: space-around;
+    max-width: 1200px;
+    justify-content: flex-start;
     flex-wrap: wrap;
+    align-items: flex-start;
+    overflow: scroll;
+    
     
 }
 .project-details{
+    /* display: flex; */
+    flex: 1 1 300px;
+    padding: 10px;
     margin: 25px;
-    width: 450px;
-    height: 550px;
+    min-width: 250px;
+    width: 400px;
+    height: 500px;
     border: 2px solid var(--bg-color-green);
     border-radius: 10px;
     box-shadow: 4px 4px 4px 4px var(--dark-bg-color-green);
-    
+    overflow: hidden ;
+
+}
+.project-details:hover{
+    /* transform: scale(0.9); */
+    box-shadow: 2px 2px 2px 2px var(--light-dark_bg-color);
+}
+
+/* .project-header{
+    width: 100%;
+    height: 35px;
+    background-color: var(--light-dark_bg-color);
+    color: var(--font-color-white);
+    text-align: center;
+} */
+
+
+.project-header,
+.project-footer {
+    background-color: var(--light-dark_bg-color); /* Light grey background for visibility */
+    padding: 10px;
+    text-align: center;
+    color: var(--font-color-white);
+    border-radius: 10px;
+}
+
+.project-display {
+    flex-grow: 1; /* Takes up remaining space */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    padding: 20px;
+    background-color: #fff; /* White background */
+}
+@media screen and (max-width: 768px) {
+    .list-projects {
+        flex-direction: column;
+    }
+
+    .project-details {
+        width: 100%; /* full width on smaller screens */
+        margin: 10px;
+    }
 }
