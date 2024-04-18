@@ -1,10 +1,54 @@
+:root {
+    --bg-color-green:#cdd3bd;
+    --font-color-green: #48522b;
+    --dark-bg-color-green:  #242424;
+}
 .home-text{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 25px;
+    text-align: center;
+    /* width:80%; */
     
 }
 
 img {
     height: 45px;
     width: 45px;
+}
+
+.home-container{
+    
+    height: 650px;
+}
+
+.aboutme-container, 
+.project-container,
+.work-container{
+    
+    height: 850px;
+}
+.project-container{
+    
+    width: 99%;
+   
+}
+.list-projects{
+    width: 100%;
+    /* border: 2px solid var(--dark-bg-color-green); */
+    height: 800px; 
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.project-details{
+    margin: 25px;
+    width: 450px;
+    height: 550px;
+    border: 2px solid var(--bg-color-green);
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 4px var(--dark-bg-color-green);
+    
 }
