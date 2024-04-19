@@ -54,6 +54,7 @@ img {
     
 }
 .project-details{
+    position: relative;
     display: flex;
     flex-direction: column;
     flex: 1 1 300px;
@@ -66,6 +67,7 @@ img {
     border-radius: 10px;
     box-shadow: 4px 4px 4px 4px var(--dark-bg-color-green);
     overflow: hidden ;
+    transition: box-shadow 0.3s;
 
 }
 .project-details:hover{
@@ -84,11 +86,13 @@ img {
 
 .project-header,
 .project-footer {
+    z-index: 2;
     background-color: var(--light-dark_bg-color); /* Light grey background for visibility */
     padding: 10px;
     text-align: center;
     color: var(--font-color-white);
     border-radius: 10px;
+    flex-shrink: 0;
 }
 
 .project-display {
@@ -100,14 +104,54 @@ img {
     background-color:var(--light-dark_bg-color); /* White background */
     opacity: 0%;
 }
-.project-display:hover {
-    opacity: 40%;
-    color: var(--font-color-white);
-}
-.project-footer {
+.project-image, .project-display {
+    position: absolute;
+    top: 48px; /* Start below the header */
+    left: 0;
+    right: 0;
+    bottom: 48px; /* Stop above the footer */
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    transition: opacity 0.3s ease;
+    z-index: 1; /* Lower than header/footer */
+}
+.project-image img {
+    width: 100%;
+    height: auto;
+    display: block; /* Ensures there are no gaps under the image */
+}
+
+.project-image {
+    opacity: 1; /* Full opacity initially */
+}
+
+.project-display {
+    opacity: 0; /* Hidden initially */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+    background-color: var(--light-dark_bg-color);
+    color: var(--font-color-white); /* Ensures text color is white */
+    z-index: 1; /* Makes sure display is above the image */
+}
+
+.project-details:hover .project-image {
+    opacity: 0.2;
+}
+
+.project-details:hover .project-display {
+    opacity: 1;
+    
+}
+
+.project-footer {
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    text-align: center;
+    /* display: flex; */
 }
 .project-img{
     width: 100%;
@@ -117,14 +161,16 @@ img {
 opacity: 20%;
 }
 .links{
-    /* display: flex; */
-    justify-content: flex-end;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
 }
 
 .link-github:hover,
 .link-www{
     cursor: pointer;
 }
+
 @media screen and (max-width: 768px) {
     .list-projects {
         flex-direction: column;

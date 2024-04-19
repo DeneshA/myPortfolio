@@ -1,20 +1,28 @@
 {
     "projects": [
         {
-            "title": "Front-end - Tic Tac Toe",
-            "content":"Javascript,HTML,CSS",
-            "details":"Testing information",
-            "link_github":"https://github.com/DeneshA/my_holiday_app_project_week_1",
-            "link_url":"https://github.com/DeneshA/my_holiday_app_project_week_1",
-            "image":""
+            "title": "Full-Stack App - Budget Buddy App (Capstone Project)",
+            "content":"React JS,Vite,NodeJS,JWT,Python 3,Django, PostgreSQl,HTML, CSS",
+            "details":"The Budget Buddy App (BBA) addresses the critical need for individuals to gain insights into their financial status, encompassing their overall incomes and expenses, along with contributions on various time scales such as weekly, biweekly, and monthly intervals. Recognizing the significance of data visualization over conventional text-based displays, the application prioritizes representing financial data through visually appealing charts. By presenting expenses and incomes in a graphical format, users can effortlessly comprehend and compare their financial activities.",
+            "link_github":"https://github.com/DeneshA/my_Capstone_Budget_Buddy_Project",
+            "link_url":"N/A",
+            "image":"/src/assets/images/project/BudgetBuddy.png"
         },
         {
             "title": "Front-end - Holiday APP (API integration)",
             "content":"HTML, CSS, JavaScript, Third-party API's : Nager Date API, Abstract API , WeatherAPI",
-            "details":"This is a Holiday App (HA) project for my portfolio, showcasing my JavaScript skills and demonstrating how to handle third-party APIs",
+            "details":"The Holiday App (HA) is built to interact with Abstract APIs, Nager Date API, and Weather API to enable the functionality of our HA. It operates under the 'Free Plan,' as this development serves an educational purpose. However, it has a limitation, allowing either 1 request per second or a total of 1,000 requests. This poses a significant challenge for the project as it continues to grow. Nager Date API has a wide range of scope to access additional data and additional endpoints.",
             "link_github":"https://github.com/DeneshA/my_holiday_app_project_week_1",
             "link_url":"https://abrasive-polish.surge.sh/ ",
             "image":"/src/assets/images/project/HolidayApp.png"
+        },
+        {
+            "title": "Frontend & Backend - DAKTickets APP",
+            "content":"React JS, Vite, Django , Python3, CSS, JavaScript",
+            "details":"This project is inspired by the TicketMaster website, designed to manage events and games. We have also built user authentication based on JWT (JSON Web Tokens) for session management. This is one of my contributions to a 'stackathon' project. My specific role was to develop the frontend for a complete Single Page Application (SPA) using ReactJS. This frontend interacts with the backend through API calls to a Django server. This experience provided an excellent opportunity to deepen my skills in full-stack development.",
+            "link_github":"https://github.com/DeneshA/DAKTickets",
+            "link_url":"N/A",
+            "image":"/src/assets/images/project/LetsConnect-Reminder.png"
         },
         {
             "title": "Full-Stack App - Let's Connect APP [Forntend & Backend]",
@@ -23,6 +31,21 @@
             "link_github":"https://github.com/DeneshA/my_let_s_connect_project_unit_2",
             "link_url":"N/A",
             "image":"/src/assets/images/project/LetsConnect-Reminder.png"
+        },     {
+            "title": "Front-end - Tic Tac Toe (Hobby Project)",
+            "content":"Javascript,HTML,CSS",
+            "details":"This is a Tic Tac Toe game, developed entirely using HTML, CSS, and JavaScript. This project marks my initial foray into web scripting as a Frontend Developer. It is designed for two players to play manually. In this game, players compete in a series of matches, and the scoreboard is dynamically updated to reflect the latest results. Initially conceptualized from scratch, I am planning to enhance this game with advanced features, including the capability to play against the computer. This would not only provide a challenging single-player experience but also demonstrate more complex programming techniques",
+            "link_github":"https://github.com/DeneshA/u1_hw_tic_tac_toe/tree/TicTacToe_Advance",
+            "link_url":"N/A",
+            "image":"/src/assets/images/project/TicTacToe.png"
+        },
+        {
+            "title": "Front-end - Calculator (Hobby Project)",
+            "content":"HTML, CSS, JavaScript",
+            "details":"Build a basic calculator that performs addition, subtraction, multiplication, and division. Additionally, I have incorporated a memory feature that captures all the numbers and operations input by the user throughout multiple calculations. At the conclusion of the calculations, when the equals button is pressed, the calculator provides the total output of all operations. Developing this application was truly interesting and presented numerous challenges",
+            "link_github":"https://github.com/DeneshA/u1_JS_calculator_lab",
+            "link_url":"N/A",
+            "image":"/src/assets/images/project/Calculator.png"
         }
     ]
 }
