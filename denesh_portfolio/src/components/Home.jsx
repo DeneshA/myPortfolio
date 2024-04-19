@@ -1,11 +1,16 @@
 import Header from "./Header"
 import AboutMe from "./AboutMe"
 import React, { useRef } from "react"
+import profileData from '../data/profile.json'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithubAlt } from '@fortawesome/free-brands-svg-icons';
+import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 
 import '../sytles/Home.css'
 
 export default function Home() {
 
+    console.log(profileData.projects)
     const homeRef = useRef(null)
     const aboutmeRef = useRef(null)
     const experience = useRef(null)
@@ -34,36 +39,25 @@ export default function Home() {
             <div className="project-container">
                 <h1>PROJECTS</h1>
                 <div className="list-projects">
-                    <div className="project-details">
-                        <div className="project-header"><h2>Header</h2></div>
-                        <div className="project-dispay">Display Picture</div>
-                        <div className="project-footer"><h2>Footer</h2></div>
-                    </div>
-                    <div className="project-details">
-                        <div className="project-header"><h2>Header</h2></div>
-                        <div className="project-dispay">Display Picture</div>
-                        <div className="project-footer"><h2>Footer</h2></div>
-                    </div>
-                    <div className="project-details">
-                        <div className="project-header"><h2>Header</h2></div>
-                        <div className="project-dispay">Display Picture</div>
-                        <div className="project-footer"><h2>Footer</h2></div>
-                    </div>
-                    <div className="project-details">
-                        <div className="project-header"><h2>Header</h2></div>
-                        <div className="project-dispay">Display Picture</div>
-                        <div className="project-footer"><h2>Footer</h2></div>
-                    </div>
-                    <div className="project-details">
-                        <div className="project-header"><h2>Header</h2></div>
-                        <div className="project-dispay">Display Picture</div>
-                        <div className="project-footer"><h2>Footer</h2></div>
-                    </div>
-                    <div className="project-details">
-                        <div className="project-header"><h2>Header</h2></div>
-                        <div className="project-dispay">Display Picture</div>
-                        <div className="project-footer"><h2>Footer</h2></div>
-                    </div>
+                    {profileData.projects.map((project) => (
+                            <div className="project-details">
+                            <div className="project-header"><h2>{project.title}</h2></div>
+                            <div className="project-image"><img className="project-img" src={project.image} alt={project.title} /></div>
+                            <div className="project-display"><h3>{project.details}</h3></div>
+                            <div className="project-footer"><h3>{project.content}</h3>
+                            <div className="links">
+                                
+                                <div className="link-www link">
+                                    <a href={project.link_github}><FontAwesomeIcon icon={faGlobe} bounce size="2xl" /></a>
+                                </div>
+                                <div className="link-github link">
+                                    <a href={project.link_url}><FontAwesomeIcon icon={faGithubAlt} shake size="2xl" /></a>
+                                </div>
+                            </div>
+                            </div>
+                            
+                        </div>
+                    ))}                                
                 </div>
             </div>
         <div>

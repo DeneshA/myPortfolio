@@ -1,0 +1,28 @@
+{
+    "projects": [
+        {
+            "title": "Front-end - Tic Tac Toe",
+            "content":"Javascript,HTML,CSS",
+            "details":"Testing information",
+            "link_github":"https://github.com/DeneshA/my_holiday_app_project_week_1",
+            "link_url":"https://github.com/DeneshA/my_holiday_app_project_week_1",
+            "image":""
+        },
+        {
+            "title": "Front-end - Holiday APP (API integration)",
+            "content":"HTML, CSS, JavaScript, Third-party API's : Nager Date API, Abstract API , WeatherAPI",
+            "details":"This is a Holiday App (HA) project for my portfolio, showcasing my JavaScript skills and demonstrating how to handle third-party APIs",
+            "link_github":"https://github.com/DeneshA/my_holiday_app_project_week_1",
+            "link_url":"https://abrasive-polish.surge.sh/ ",
+            "image":"/src/assets/images/project/HolidayApp.png"
+        },
+        {
+            "title": "Full-Stack App - Let's Connect APP [Forntend & Backend]",
+            "content":"HTML, CSS, JavaScript, Mongo Altes DB ,Third-party API : WeatherAPI",
+            "details":"Let's Connect App - People who you love most Heartfelt app designed to strengthen bonds and create lasting connections among family and friends.With intuitive features, it facilitates seamless communication, collaborative planning, and the sharing of cherished moments, fostering a sense of togetherness for the ones you hold dear. Experience the joy of staying connected with those who matter most in a personalized and emotionally resonant digital space.",
+            "link_github":"https://github.com/DeneshA/my_let_s_connect_project_unit_2",
+            "link_url":"N/A",
+            "image":"/src/assets/images/project/LetsConnect-Reminder.png"
+        }
+    ]
+}
