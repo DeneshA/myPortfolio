@@ -20,11 +20,7 @@
     max-height: 700px;
 }
 
-.row {
-    width: 100%;  
-    display: flex;  
-    flex-wrap: wrap;  
-}
+
 
 .color-white {
     color: var(--font-color-green);
@@ -44,10 +40,11 @@
 }
 .flip-box-front,
 .flip-box-back {
+    padding: 5px;
     background-size: cover;
     background-position: center;
     border-radius: 8px;
-    min-height: 170px;
+    height: 170px;
     transition: transform 0.7s cubic-bezier(.4, .2, .2, 1);
     backface-visibility: hidden;
     border: 2px solid var(--light-dark_bg-color);

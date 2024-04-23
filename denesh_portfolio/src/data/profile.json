@@ -85,27 +85,27 @@
     "Skill_Sets":[
             {   
                 "skill_id":1,
-                "industry":"Software Testing",
-                "skill_title" : "BDD",
-                "Abbriviation":"Behaviour Data Driven",
-                "src_location":"/src/assets/images/Skills/BDD.png",
-                "level_knowledge":"Intermediate"
+                "industry":"Dev (Frontend)",
+                "skill_title" : "React JS",
+                "Abbriviation":"React JavaScript",
+                "src_location":"/src/assets/images/Skills/Reactjs.png",
+                "level_knowledge":"Beginner"
             },
             {
                 "skill_id":2,
-                "industry":"Software Testing",
-                "skill_title" : "TDD",
-                "Abbriviation":"Data Driven Testing (Framework))",
-                "src_location":"/src/assets/images/Skills/BDD.png",
-                "level_knowledge":"Intermediate"
+                "industry":"Dev (Backend)",
+                "skill_title" : "Python 3",
+                "Abbriviation":"Python 3",
+                "src_location":"/src/assets/images/Skills/python.jpg",
+                "level_knowledge":"Beginner"
             },
             {   
                 "skill_id":3,
-                "industry":"Software Testing",
-                "skill_title" : "BitBucket",
-                "Abbriviation":"BitBucket",
-                "src_location":"/src/assets/images/Skills/bitbucket.jpg",
-                "level_knowledge":"Intermediate"
+                "industry":"Dev (Backend)",
+                "skill_title" : "DRF",
+                "Abbriviation":"DJango Rest Framework",
+                "src_location":"/src/assets/images/Skills/DRF.png",
+                "level_knowledge":"Beginner"
             },
             {   
                 "skill_id":4,
@@ -130,8 +130,71 @@
                 "Abbriviation":"JavaScript",
                 "src_location":"/src/assets/images/Skills/Javascript_badge.svg.png",
                 "level_knowledge":"Intermediate"
+            },
+            {   
+                "skill_id":7,
+                "industry":"Dev & Testing",
+                "skill_title" : "Git",
+                "Abbriviation":"Git",
+                "src_location":"/src/assets/images/Skills/git.jpeg",
+                "level_knowledge":"Intermediate"
+            },
+            {   
+                "skill_id":8,
+                "industry":"Dev & Testing",
+                "skill_title" : "GitHub",
+                "Abbriviation":"GitHub",
+                "src_location":"/src/assets/images/Skills/github.jpg",
+                "level_knowledge":"Intermediate"
+            },
+            {   
+                "skill_id":9,
+                "industry":"Dev (Backend)",
+                "skill_title" : "MongoDB/Atles",
+                "Abbriviation":"MongoDB/Atles",
+                "src_location":"/src/assets/images/Skills/mongodb.jpeg",
+                "level_knowledge":"Beginner"
+            },
+            {   
+                "skill_id":10,
+                "industry":"Dev (Backend)",
+                "skill_title" : "Node JS",
+                "Abbriviation":"NOde JS",
+                "src_location":"/src/assets/images/Skills/nodejs.png",
+                "level_knowledge":"Beginner"
+            },
+            {   
+                "skill_id":11,
+                "industry":"Software Testing",
+                "skill_title" : "Java 11",
+                "Abbriviation":"Java 11",
+                "src_location":"/src/assets/images/Skills/java.png",
+                "level_knowledge":"Intermediate"
+            },
+            {   
+                "skill_id":12,
+                "industry":"Software Testing",
+                "skill_title" : "BDD",
+                "Abbriviation":"Behaviour Data Driven",
+                "src_location":"/src/assets/images/Skills/BDD.png",
+                "level_knowledge":"Intermediate"
+            },
+            {
+                "skill_id":13,
+                "industry":"Software Testing",
+                "skill_title" : "TDD",
+                "Abbriviation":"Data Driven Testing (Framework))",
+                "src_location":"/src/assets/images/Skills/BDD.png",
+                "level_knowledge":"Intermediate"
+            },
+            {   
+                "skill_id":14,
+                "industry":"Software Testing",
+                "skill_title" : "BitBucket",
+                "Abbriviation":"BitBucket",
+                "src_location":"/src/assets/images/Skills/bitbucket.jpg",
+                "level_knowledge":"Intermediate"
             }
-        
     ]
     
 

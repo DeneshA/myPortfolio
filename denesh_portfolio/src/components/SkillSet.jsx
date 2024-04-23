@@ -16,7 +16,7 @@ export default function SkillSet() {
 
     return (
         <div className="grid-container container">
-            <div className="row">
+            {/* <div className="row"> */}
                 {cards.map(card => (
                     <div key={card.skill_id} className="col-md-4 box-item">
                         <div className="flip-box">
@@ -41,6 +41,6 @@ export default function SkillSet() {
                     </div>
                 ))}
             </div>
-        </div>
+        // </div>
     )
 }
