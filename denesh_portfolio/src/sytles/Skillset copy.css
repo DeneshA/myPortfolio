@@ -1,0 +1,67 @@
+h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.grid-container {
+    
+    /* background-color: ; */
+    /* color: white; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    grid-gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card {
+    margin: 10px;
+    height: calc(140px/2*3);
+    width: 140px;
+    border: 2px solid;
+    border-radius: 10px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease-in-out;
+    /* gap: 16px; */
+}
+
+.front-image,
+.back-image {
+    width: 60px;
+    height: 60px;
+}
+
+.card.flipped {
+    transform: rotateY(180deg);
+}
+
+.front,
+.back {
+    backface-visibility: hidden;
+    position: absolute;
+    border-radius: 10px;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.card .front,
+.card .back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateY(180deg);
+}
+
+.grid-container {
+    perspective: 1000px;
+}

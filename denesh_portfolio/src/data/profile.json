@@ -106,6 +106,30 @@
                 "Abbriviation":"BitBucket",
                 "src_location":"/src/assets/images/Skills/bitbucket.jpg",
                 "level_knowledge":"Intermediate"
+            },
+            {   
+                "skill_id":4,
+                "industry":"Dev (Frontend)",
+                "skill_title" : "CSS",
+                "Abbriviation":"Cascading Style Sheets",
+                "src_location":"/src/assets/images/Skills/css.png",
+                "level_knowledge":"Intermediate"
+            },
+            {   
+                "skill_id":5,
+                "industry":"Dev (Frontend)",
+                "skill_title" : "HTML",
+                "Abbriviation":"Hyper Text Markup Language",
+                "src_location":"/src/assets/images/Skills/HTML.jpg",
+                "level_knowledge":"Intermediate"
+            },
+            {   
+                "skill_id":6,
+                "industry":"Dev (Frontend)",
+                "skill_title" : "JS",
+                "Abbriviation":"JavaScript",
+                "src_location":"/src/assets/images/Skills/Javascript_badge.svg.png",
+                "level_knowledge":"Intermediate"
             }
         
     ]

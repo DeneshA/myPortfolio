@@ -14,6 +14,7 @@ export default function Home() {
     console.log(profileData.projects)
     const homeRef = useRef(null)
     const aboutmeRef = useRef(null)
+    const skillsetRef = useRef(null)
     const experience = useRef(null)
     const project = useRef(null)
 
@@ -39,7 +40,7 @@ export default function Home() {
                   </div>
             </div>
 
-            <div className="skillset-container" id="skillset" ref={aboutmeRef} >
+            <div className="skillset-container" id="skillset" ref={skillsetRef} >
                 <h1>SKILLS</h1>
                 <SkillSet />
             </div>
