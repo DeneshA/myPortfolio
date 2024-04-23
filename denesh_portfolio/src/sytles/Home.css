@@ -22,9 +22,17 @@ img {
     
     height: 650px;
 }
-
+.background-image-aboutme{
+    width: 100%;
+    height: 150px;
+}
+.mountain-sun-raise{
+    width: 100%;
+    height: 250px;
+}
 .aboutme-container, 
-.work-container{
+.work-container,
+.skillset-container{
     
     height: 850px;
 }

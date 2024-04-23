@@ -1,6 +1,7 @@
 {
     "projects": [
-        {
+        {   
+            "project_id":1,
             "title": "Full-Stack App - Budget Buddy App (Capstone Project)",
             "content":"React JS,Vite,NodeJS,JWT,Python 3,Django, PostgreSQl,HTML, CSS",
             "details":"The Budget Buddy App (BBA) addresses the critical need for individuals to gain insights into their financial status, encompassing their overall incomes and expenses, along with contributions on various time scales such as weekly, biweekly, and monthly intervals. Recognizing the significance of data visualization over conventional text-based displays, the application prioritizes representing financial data through visually appealing charts. By presenting expenses and incomes in a graphical format, users can effortlessly comprehend and compare their financial activities.",
@@ -8,7 +9,8 @@
             "link_url":"N/A",
             "image":"/src/assets/images/project/BudgetBuddy.png"
         },
-        {
+        {   
+            "project_id":2,
             "title": "Front-end - Holiday APP (API integration)",
             "content":"HTML, CSS, JavaScript, Third-party API's : Nager Date API, Abstract API , WeatherAPI",
             "details":"The Holiday App (HA) is built to interact with Abstract APIs, Nager Date API, and Weather API to enable the functionality of our HA. It operates under the 'Free Plan,' as this development serves an educational purpose. However, it has a limitation, allowing either 1 request per second or a total of 1,000 requests. This poses a significant challenge for the project as it continues to grow. Nager Date API has a wide range of scope to access additional data and additional endpoints.",
@@ -17,21 +19,34 @@
             "image":"/src/assets/images/project/HolidayApp.png"
         },
         {
+            "project_id":3,
             "title": "Frontend & Backend - DAKTickets APP",
             "content":"React JS, Vite, Django , Python3, CSS, JavaScript",
             "details":"This project is inspired by the TicketMaster website, designed to manage events and games. We have also built user authentication based on JWT (JSON Web Tokens) for session management. This is one of my contributions to a 'stackathon' project. My specific role was to develop the frontend for a complete Single Page Application (SPA) using ReactJS. This frontend interacts with the backend through API calls to a Django server. This experience provided an excellent opportunity to deepen my skills in full-stack development.",
             "link_github":"https://github.com/DeneshA/DAKTickets",
             "link_url":"N/A",
-            "image":"/src/assets/images/project/LetsConnect-Reminder.png"
+            "image":"/src/assets/images/project/DAKTicket.png"
         },
         {
+            "project_id":4,
+            "title": "Frontend & Backend - DADA Goal APP",
+            "content":"React JS, Vite, Mongoose , Express, Node JS, Mongo Atles DB",
+            "details":"DADA Goal is another project from my stackathon series, aimed at helping users set, track, and achieve their personal and professional goals. The application features a user-friendly interface with a wide range of customizable options, designed to keep users motivated and focused on their path to success. My involvement in this project was primarily focused on developing key components: setting up the 'New Goal' component, implementing the 'Register New Goal' functionality, and integrating reminders into the calendar component. These contributions are essential in making the application functional and user-oriented, enabling a seamless goal-management experience.",
+            "link_github":"https://github.com/DeneshA/DADA",
+            "link_url":"N/A",
+            "image":"/src/assets/images/project/DadaGoal.png"
+        },
+        {   
+            "project_id":5,
             "title": "Full-Stack App - Let's Connect APP [Forntend & Backend]",
             "content":"HTML, CSS, JavaScript, Mongo Altes DB ,Third-party API : WeatherAPI",
             "details":"Let's Connect App - People who you love most Heartfelt app designed to strengthen bonds and create lasting connections among family and friends.With intuitive features, it facilitates seamless communication, collaborative planning, and the sharing of cherished moments, fostering a sense of togetherness for the ones you hold dear. Experience the joy of staying connected with those who matter most in a personalized and emotionally resonant digital space.",
             "link_github":"https://github.com/DeneshA/my_let_s_connect_project_unit_2",
             "link_url":"N/A",
             "image":"/src/assets/images/project/LetsConnect-Reminder.png"
-        },     {
+        },     
+        {   
+            "project_id":6,
             "title": "Front-end - Tic Tac Toe (Hobby Project)",
             "content":"Javascript,HTML,CSS",
             "details":"This is a Tic Tac Toe game, developed entirely using HTML, CSS, and JavaScript. This project marks my initial foray into web scripting as a Frontend Developer. It is designed for two players to play manually. In this game, players compete in a series of matches, and the scoreboard is dynamically updated to reflect the latest results. Initially conceptualized from scratch, I am planning to enhance this game with advanced features, including the capability to play against the computer. This would not only provide a challenging single-player experience but also demonstrate more complex programming techniques",
@@ -39,13 +54,61 @@
             "link_url":"N/A",
             "image":"/src/assets/images/project/TicTacToe.png"
         },
-        {
+        {   
+            "project_id":7,
             "title": "Front-end - Calculator (Hobby Project)",
             "content":"HTML, CSS, JavaScript",
             "details":"Build a basic calculator that performs addition, subtraction, multiplication, and division. Additionally, I have incorporated a memory feature that captures all the numbers and operations input by the user throughout multiple calculations. At the conclusion of the calculations, when the equals button is pressed, the calculator provides the total output of all operations. Developing this application was truly interesting and presented numerous challenges",
             "link_github":"https://github.com/DeneshA/u1_JS_calculator_lab",
             "link_url":"N/A",
             "image":"/src/assets/images/project/Calculator.png"
+        },
+        {   
+            "project_id":8,
+            "title": "Project Comming Soon...",
+            "content":"",
+            "details":"",
+            "link_github":"",
+            "link_url":"N/A",
+            "image":"/src/assets/images/project/comingsoon.png"
+        },
+        {   
+            "project_id":9,
+            "title": "Project Comming Soon...",
+            "content":"",
+            "details":"",
+            "link_github":"",
+            "link_url":"N/A",
+            "image":"/src/assets/images/project/comingsoon.png"
         }
+    ],
+    "Skill_Sets":[
+            {   
+                "skill_id":1,
+                "industry":"Software Testing",
+                "skill_title" : "BDD",
+                "Abbriviation":"Behaviour Data Driven",
+                "src_location":"/src/assets/images/Skills/BDD.png",
+                "level_knowledge":"Intermediate"
+            },
+            {
+                "skill_id":2,
+                "industry":"Software Testing",
+                "skill_title" : "TDD",
+                "Abbriviation":"Data Driven Testing (Framework))",
+                "src_location":"/src/assets/images/Skills/BDD.png",
+                "level_knowledge":"Intermediate"
+            },
+            {   
+                "skill_id":3,
+                "industry":"Software Testing",
+                "skill_title" : "BitBucket",
+                "Abbriviation":"BitBucket",
+                "src_location":"/src/assets/images/Skills/bitbucket.jpg",
+                "level_knowledge":"Intermediate"
+            }
+        
     ]
+    
+
 }
