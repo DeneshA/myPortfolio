@@ -34,6 +34,7 @@
     margin: 10px;
     height: 100%;
     position: relative;
+    
 }
 .caption{
     color: blueviolet;
@@ -57,10 +58,12 @@
     height: 100%;
     width: 100%;
     position:relative;
+    
 }
 .flip-box-front {
     transform: rotateY(0deg);
     transform-style: preserve-3d;
+    /* background-color: white; */
 }
 
 .flip-box:hover .flip-box-front {

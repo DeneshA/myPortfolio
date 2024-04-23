@@ -96,7 +96,7 @@
                 "industry":"Dev (Backend)",
                 "skill_title" : "Python 3",
                 "Abbriviation":"Python 3",
-                "src_location":"/src/assets/images/Skills/python.jpg",
+                "src_location":"/src/assets/images/Skills/python.png",
                 "level_knowledge":"Beginner"
             },
             {   
@@ -112,7 +112,7 @@
                 "industry":"Dev (Frontend)",
                 "skill_title" : "CSS",
                 "Abbriviation":"Cascading Style Sheets",
-                "src_location":"/src/assets/images/Skills/css.png",
+                "src_location":"/src/assets/images/Skills/CSS3.png",
                 "level_knowledge":"Intermediate"
             },
             {   
@@ -120,7 +120,7 @@
                 "industry":"Dev (Frontend)",
                 "skill_title" : "HTML",
                 "Abbriviation":"Hyper Text Markup Language",
-                "src_location":"/src/assets/images/Skills/HTML.jpg",
+                "src_location":"/src/assets/images/Skills/HTML5.png",
                 "level_knowledge":"Intermediate"
             },
             {   
@@ -136,7 +136,7 @@
                 "industry":"Dev & Testing",
                 "skill_title" : "Git",
                 "Abbriviation":"Git",
-                "src_location":"/src/assets/images/Skills/git.jpeg",
+                "src_location":"/src/assets/images/Skills/GIT.png",
                 "level_knowledge":"Intermediate"
             },
             {   
@@ -144,7 +144,7 @@
                 "industry":"Dev & Testing",
                 "skill_title" : "GitHub",
                 "Abbriviation":"GitHub",
-                "src_location":"/src/assets/images/Skills/github.jpg",
+                "src_location":"/src/assets/images/Skills/GitHub.png",
                 "level_knowledge":"Intermediate"
             },
             {   
@@ -152,7 +152,7 @@
                 "industry":"Dev (Backend)",
                 "skill_title" : "MongoDB/Atles",
                 "Abbriviation":"MongoDB/Atles",
-                "src_location":"/src/assets/images/Skills/mongodb.jpeg",
+                "src_location":"/src/assets/images/Skills/MongoDB.png",
                 "level_knowledge":"Beginner"
             },
             {   
@@ -160,7 +160,7 @@
                 "industry":"Dev (Backend)",
                 "skill_title" : "Node JS",
                 "Abbriviation":"NOde JS",
-                "src_location":"/src/assets/images/Skills/nodejs.png",
+                "src_location":"/src/assets/images/Skills/Nodejs.png",
                 "level_knowledge":"Beginner"
             },
             {   
@@ -168,14 +168,14 @@
                 "industry":"Software Testing",
                 "skill_title" : "Java 11",
                 "Abbriviation":"Java 11",
-                "src_location":"/src/assets/images/Skills/java.png",
+                "src_location":"/src/assets/images/Skills/Java.png",
                 "level_knowledge":"Intermediate"
             },
             {   
                 "skill_id":12,
                 "industry":"Software Testing",
                 "skill_title" : "BDD",
-                "Abbriviation":"Behaviour Data Driven",
+                "Abbriviation":"Behaviour Driven Development (Framework)",
                 "src_location":"/src/assets/images/Skills/BDD.png",
                 "level_knowledge":"Intermediate"
             },
@@ -183,8 +183,8 @@
                 "skill_id":13,
                 "industry":"Software Testing",
                 "skill_title" : "TDD",
-                "Abbriviation":"Data Driven Testing (Framework))",
-                "src_location":"/src/assets/images/Skills/BDD.png",
+                "Abbriviation":"Test Driven Development (Framework)",
+                "src_location":"/src/assets/images/Skills/TDD.png",
                 "level_knowledge":"Intermediate"
             },
             {   
@@ -192,8 +192,32 @@
                 "industry":"Software Testing",
                 "skill_title" : "BitBucket",
                 "Abbriviation":"BitBucket",
-                "src_location":"/src/assets/images/Skills/bitbucket.jpg",
-                "level_knowledge":"Intermediate"
+                "src_location":"/src/assets/images/Skills/Bitbucket.png",
+                "level_knowledge":"Beginner"
+            },
+            {   
+                "skill_id":15,
+                "industry":"Software Testing",
+                "skill_title" : "Confluence",
+                "Abbriviation":"Confluence",
+                "src_location":"/src/assets/images/Skills/Confluence.jpg",
+                "level_knowledge":"Beginner"
+            },
+            {   
+                "skill_id":16,
+                "industry":"Software Testing",
+                "skill_title" : "Jira",
+                "Abbriviation":"Jira",
+                "src_location":"/src/assets/images/Skills/Jira.png",
+                "level_knowledge":"Beginner"
+            },
+            {   
+                "skill_id":17,
+                "industry":"Software Testing",
+                "skill_title" : "Selenium",
+                "Abbriviation":"Selenium",
+                "src_location":"/src/assets/images/Skills/Selenium.png",
+                "level_knowledge":"Advance"
             }
     ]
     

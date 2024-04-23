@@ -22,7 +22,7 @@ export default function SkillSet() {
                         <div className="flip-box">
                         {/* <div className="flip-box-front text-center" style={{ backgroundImage: `url(${card.src_location})` }}> */}
                             <div className="flip-box-front text-center" >
-                                <img className="skill-img" src={card.src_location} alt={card.skill_title} />
+                                <img className="skill-img" src={card.src_location} alt={card.skill_title} style={{ backgroundColor: 'white' }} />
                                 <p>{card.skill_title}</p>
                                 <div className="inner color-white">  {/* Check this class name, corrected from colo-white to color-white */}
                                     {/* <p>Tool: {card.Abbriviation}</p>
