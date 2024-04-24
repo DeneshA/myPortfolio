@@ -78,11 +78,13 @@ img {
     box-shadow: 4px 4px 4px 4px var(--dark-bg-color-green);
     overflow: hidden ;
     transition: box-shadow 0.3s;
+    
 
 }
 .project-details:hover{
     /* transform: scale(0.9); */
     box-shadow: 2px 2px 2px 2px var(--light-dark_bg-color);
+   
 }
 
 /* .project-header{

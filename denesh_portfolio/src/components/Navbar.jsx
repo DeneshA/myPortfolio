@@ -2,8 +2,11 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 export default function Navbar({ scrollToSection }) {
-  const handleScrollTo = (sectionId) => {
-    scrollToSection(sectionId)
+  const handleScrollTo = (sectionRef) => {
+    window.scrollTo({
+      top: sectionRef.current.offsetTop,
+      behavior: 'smooth'
+    })
   }
 
   return (

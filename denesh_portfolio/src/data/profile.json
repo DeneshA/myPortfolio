@@ -173,10 +173,10 @@
             },
             {   
                 "skill_id":12,
-                "industry":"Software Testing",
-                "skill_title" : "BDD",
-                "Abbriviation":"Behaviour Driven Development (Framework)",
-                "src_location":"/src/assets/images/Skills/BDD.png",
+                "industry":"Dev & Testing",
+                "skill_title" : "Ubuntu",
+                "Abbriviation":"Ubuntu Linux Operation System",
+                "src_location":"/src/assets/images/Skills/Ubuntu.png",
                 "level_knowledge":"Intermediate"
             },
             {
@@ -218,7 +218,88 @@
                 "Abbriviation":"Selenium",
                 "src_location":"/src/assets/images/Skills/Selenium.png",
                 "level_knowledge":"Advance"
+            },
+            {   
+                "skill_id":18,
+                "industry":"Dev & Testing",
+                "skill_title" : "MySql",
+                "Abbriviation":"MySql",
+                "src_location":"/src/assets/images/Skills/Mysql.png",
+                "level_knowledge":"Intermediate"
+            },
+            {   
+                "skill_id":19,
+                "industry":"Dev (Frontend)",
+                "skill_title" : "Vite",
+                "Abbriviation":"Vite",
+                "src_location":"/src/assets/images/Skills/Vite.png",
+                "level_knowledge":"Intermediate"
+            },
+            {   
+                "skill_id":20,
+                "industry":"Dev (Frontend)",
+                "skill_title" : "PSQL",
+                "Abbriviation":"PostgreSQL",
+                "src_location":"/src/assets/images/Skills/PSql.png",
+                "level_knowledge":"Beginner"
+            },
+            {   
+                "skill_id":21,
+                "industry":"Dev (Frontend)",
+                "skill_title" : "Oracle DB",
+                "Abbriviation":"Oracle Database",
+                "src_location":"/src/assets/images/Skills/Oracledb.png",
+                "level_knowledge":"Beginner"
+            },
+            {   
+                "skill_id":22,
+                "industry":"Software Testing",
+                "skill_title" : "BDD",
+                "Abbriviation":"Behaviour Driven Development (Framework)",
+                "src_location":"/src/assets/images/Skills/BDD.png",
+                "level_knowledge":"Intermediate"
+            },
+            {   
+                "skill_id":23,
+                "industry":"Software Testing",
+                "skill_title" : "Maven",
+                "Abbriviation":"Maven",
+                "src_location":"/src/assets/images/Skills/Maven.png",
+                "level_knowledge":"Intermediate"
+            },
+            {   
+                "skill_id":24,
+                "industry":"Software Testing",
+                "skill_title" : "Jenkins",
+                "Abbriviation":"Jenkins",
+                "src_location":"/src/assets/images/Skills/Jenkins.jpg",
+                "level_knowledge":"Beginner"
+            },
+            {   
+                "skill_id":25,
+                "industry":"Software Testing",
+                "skill_title" : "JUnit 5",
+                "Abbriviation":"JUnit 5",
+                "src_location":"/src/assets/images/Skills/JUnit.png",
+                "level_knowledge":"Intermediate"
+            },
+            {   
+                "skill_id":26,
+                "industry":"Software Testing",
+                "skill_title" : "TestNG",
+                "Abbriviation":"TestNG",
+                "src_location":"/src/assets/images/Skills/TestNG.png",
+                "level_knowledge":"Intermediate"
+            },
+            {   
+                "skill_id":27,
+                "industry":"Software Testing",
+                "skill_title" : "REST Assured",
+                "Abbriviation":"REST Assured (Testing Framework)",
+                "src_location":"/src/assets/images/Skills/RestAssured.jpg",
+                "level_knowledge":"Intermediate"
             }
+    
     ]
     
 
