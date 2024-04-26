@@ -12,7 +12,7 @@ export default function Navbar({ scrollToSection }) {
   return (
     <div className="nav-container">
       <div className="img-nav-div">
-        <img className="bar-nav" src="/src/assets/icons/bars.svg" alt="" />
+        <img className="bar-nav" src="/assets/icons/bars.svg" alt="" />
       </div>
       <div className="ul-nav-div">
         <ul className="nav-ul">
