@@ -1,0 +1,306 @@
+{
+    "projects": [
+        {   
+            "project_id":1,
+            "title": "Full-Stack App - Budget Buddy App (Capstone Project)",
+            "content":"React JS,Vite,NodeJS,JWT,Python 3,Django, PostgreSQl,HTML, CSS",
+            "details":"The Budget Buddy App (BBA) addresses the critical need for individuals to gain insights into their financial status, encompassing their overall incomes and expenses, along with contributions on various time scales such as weekly, biweekly, and monthly intervals. Recognizing the significance of data visualization over conventional text-based displays, the application prioritizes representing financial data through visually appealing charts. By presenting expenses and incomes in a graphical format, users can effortlessly comprehend and compare their financial activities.",
+            "link_github":"https://github.com/DeneshA/my_Capstone_Budget_Buddy_Project",
+            "link_url":"N/A",
+            "image":"/src/assets/images/project/BudgetBuddy.png"
+        },
+        {   
+            "project_id":2,
+            "title": "Front-end - Holiday APP (API integration)",
+            "content":"HTML, CSS, JavaScript, Third-party API's : Nager Date API, Abstract API , WeatherAPI",
+            "details":"The Holiday App (HA) is built to interact with Abstract APIs, Nager Date API, and Weather API to enable the functionality of our HA. It operates under the 'Free Plan,' as this development serves an educational purpose. However, it has a limitation, allowing either 1 request per second or a total of 1,000 requests. This poses a significant challenge for the project as it continues to grow. Nager Date API has a wide range of scope to access additional data and additional endpoints.",
+            "link_github":"https://github.com/DeneshA/my_holiday_app_project_week_1",
+            "link_url":"https://abrasive-polish.surge.sh/ ",
+            "image":"/src/assets/images/project/HolidayApp.png"
+        },
+        {
+            "project_id":3,
+            "title": "Frontend & Backend - DAKTickets APP",
+            "content":"React JS, Vite, Django , Python3, CSS, JavaScript",
+            "details":"This project is inspired by the TicketMaster website, designed to manage events and games. We have also built user authentication based on JWT (JSON Web Tokens) for session management. This is one of my contributions to a 'stackathon' project. My specific role was to develop the frontend for a complete Single Page Application (SPA) using ReactJS. This frontend interacts with the backend through API calls to a Django server. This experience provided an excellent opportunity to deepen my skills in full-stack development.",
+            "link_github":"https://github.com/DeneshA/DAKTickets",
+            "link_url":"N/A",
+            "image":"/src/assets/images/project/DAKTicket.png"
+        },
+        {
+            "project_id":4,
+            "title": "Frontend & Backend - DADA Goal APP",
+            "content":"React JS, Vite, Mongoose , Express, Node JS, Mongo Atles DB",
+            "details":"DADA Goal is another project from my stackathon series, aimed at helping users set, track, and achieve their personal and professional goals. The application features a user-friendly interface with a wide range of customizable options, designed to keep users motivated and focused on their path to success. My involvement in this project was primarily focused on developing key components: setting up the 'New Goal' component, implementing the 'Register New Goal' functionality, and integrating reminders into the calendar component. These contributions are essential in making the application functional and user-oriented, enabling a seamless goal-management experience.",
+            "link_github":"https://github.com/DeneshA/DADA",
+            "link_url":"N/A",
+            "image":"/src/assets/images/project/DadaGoal.png"
+        },
+        {   
+            "project_id":5,
+            "title": "Full-Stack App - Let's Connect APP [Forntend & Backend]",
+            "content":"HTML, CSS, JavaScript, Mongo Altes DB ,Third-party API : WeatherAPI",
+            "details":"Let's Connect App - People who you love most Heartfelt app designed to strengthen bonds and create lasting connections among family and friends.With intuitive features, it facilitates seamless communication, collaborative planning, and the sharing of cherished moments, fostering a sense of togetherness for the ones you hold dear. Experience the joy of staying connected with those who matter most in a personalized and emotionally resonant digital space.",
+            "link_github":"https://github.com/DeneshA/my_let_s_connect_project_unit_2",
+            "link_url":"N/A",
+            "image":"/src/assets/images/project/LetsConnect-Reminder.png"
+        },     
+        {   
+            "project_id":6,
+            "title": "Front-end - Tic Tac Toe (Hobby Project)",
+            "content":"Javascript,HTML,CSS",
+            "details":"This is a Tic Tac Toe game, developed entirely using HTML, CSS, and JavaScript. This project marks my initial foray into web scripting as a Frontend Developer. It is designed for two players to play manually. In this game, players compete in a series of matches, and the scoreboard is dynamically updated to reflect the latest results. Initially conceptualized from scratch, I am planning to enhance this game with advanced features, including the capability to play against the computer. This would not only provide a challenging single-player experience but also demonstrate more complex programming techniques",
+            "link_github":"https://github.com/DeneshA/u1_hw_tic_tac_toe/tree/TicTacToe_Advance",
+            "link_url":"N/A",
+            "image":"/src/assets/images/project/TicTacToe.png"
+        },
+        {   
+            "project_id":7,
+            "title": "Front-end - Calculator (Hobby Project)",
+            "content":"HTML, CSS, JavaScript",
+            "details":"Build a basic calculator that performs addition, subtraction, multiplication, and division. Additionally, I have incorporated a memory feature that captures all the numbers and operations input by the user throughout multiple calculations. At the conclusion of the calculations, when the equals button is pressed, the calculator provides the total output of all operations. Developing this application was truly interesting and presented numerous challenges",
+            "link_github":"https://github.com/DeneshA/u1_JS_calculator_lab",
+            "link_url":"N/A",
+            "image":"/src/assets/images/project/Calculator.png"
+        },
+        {   
+            "project_id":8,
+            "title": "Project Comming Soon...",
+            "content":"",
+            "details":"",
+            "link_github":"",
+            "link_url":"N/A",
+            "image":"/src/assets/images/project/comingsoon.png"
+        },
+        {   
+            "project_id":9,
+            "title": "Project Comming Soon...",
+            "content":"",
+            "details":"",
+            "link_github":"",
+            "link_url":"N/A",
+            "image":"/src/assets/images/project/comingsoon.png"
+        }
+    ],
+    "Skill_Sets":[
+            {   
+                "skill_id":1,
+                "industry":"Dev (Frontend)",
+                "skill_title" : "React JS",
+                "Abbriviation":"React JavaScript",
+                "src_location":"/src/assets/images/Skills/Reactjs.png",
+                "level_knowledge":"Beginner"
+            },
+            {
+                "skill_id":2,
+                "industry":"Dev (Backend)",
+                "skill_title" : "Python 3",
+                "Abbriviation":"Python 3",
+                "src_location":"/src/assets/images/Skills/python.png",
+                "level_knowledge":"Beginner"
+            },
+            {   
+                "skill_id":3,
+                "industry":"Dev (Backend)",
+                "skill_title" : "DRF",
+                "Abbriviation":"DJango Rest Framework",
+                "src_location":"/src/assets/images/Skills/DRF.png",
+                "level_knowledge":"Beginner"
+            },
+            {   
+                "skill_id":4,
+                "industry":"Dev (Frontend)",
+                "skill_title" : "CSS",
+                "Abbriviation":"Cascading Style Sheets",
+                "src_location":"/src/assets/images/Skills/CSS3.png",
+                "level_knowledge":"Intermediate"
+            },
+            {   
+                "skill_id":5,
+                "industry":"Dev (Frontend)",
+                "skill_title" : "HTML",
+                "Abbriviation":"Hyper Text Markup Language",
+                "src_location":"/src/assets/images/Skills/HTML5.png",
+                "level_knowledge":"Intermediate"
+            },
+            {   
+                "skill_id":6,
+                "industry":"Dev (Frontend)",
+                "skill_title" : "JS",
+                "Abbriviation":"JavaScript",
+                "src_location":"/src/assets/images/Skills/Javascript_badge.svg.png",
+                "level_knowledge":"Intermediate"
+            },
+            {   
+                "skill_id":7,
+                "industry":"Dev & Testing",
+                "skill_title" : "Git",
+                "Abbriviation":"Git",
+                "src_location":"/src/assets/images/Skills/GIT.png",
+                "level_knowledge":"Intermediate"
+            },
+            {   
+                "skill_id":8,
+                "industry":"Dev & Testing",
+                "skill_title" : "GitHub",
+                "Abbriviation":"GitHub",
+                "src_location":"/src/assets/images/Skills/GitHub.png",
+                "level_knowledge":"Intermediate"
+            },
+            {   
+                "skill_id":9,
+                "industry":"Dev (Backend)",
+                "skill_title" : "MongoDB/Atles",
+                "Abbriviation":"MongoDB/Atles",
+                "src_location":"/src/assets/images/Skills/MongoDB.png",
+                "level_knowledge":"Beginner"
+            },
+            {   
+                "skill_id":10,
+                "industry":"Dev (Backend)",
+                "skill_title" : "Node JS",
+                "Abbriviation":"NOde JS",
+                "src_location":"/src/assets/images/Skills/Nodejs.png",
+                "level_knowledge":"Beginner"
+            },
+            {   
+                "skill_id":11,
+                "industry":"Software Testing",
+                "skill_title" : "Java 11",
+                "Abbriviation":"Java 11",
+                "src_location":"/src/assets/images/Skills/Java.png",
+                "level_knowledge":"Intermediate"
+            },
+            {   
+                "skill_id":12,
+                "industry":"Dev & Testing",
+                "skill_title" : "Ubuntu",
+                "Abbriviation":"Ubuntu Linux Operation System",
+                "src_location":"/src/assets/images/Skills/Ubuntu.png",
+                "level_knowledge":"Intermediate"
+            },
+            {
+                "skill_id":13,
+                "industry":"Software Testing",
+                "skill_title" : "TDD",
+                "Abbriviation":"Test Driven Development (Framework)",
+                "src_location":"/src/assets/images/Skills/TDD.png",
+                "level_knowledge":"Intermediate"
+            },
+            {   
+                "skill_id":14,
+                "industry":"Software Testing",
+                "skill_title" : "BitBucket",
+                "Abbriviation":"BitBucket",
+                "src_location":"/src/assets/images/Skills/Bitbucket.png",
+                "level_knowledge":"Beginner"
+            },
+            {   
+                "skill_id":15,
+                "industry":"Software Testing",
+                "skill_title" : "Confluence",
+                "Abbriviation":"Confluence",
+                "src_location":"/src/assets/images/Skills/Confluence.jpg",
+                "level_knowledge":"Beginner"
+            },
+            {   
+                "skill_id":16,
+                "industry":"Software Testing",
+                "skill_title" : "Jira",
+                "Abbriviation":"Jira",
+                "src_location":"/src/assets/images/Skills/Jira.png",
+                "level_knowledge":"Beginner"
+            },
+            {   
+                "skill_id":17,
+                "industry":"Software Testing",
+                "skill_title" : "Selenium",
+                "Abbriviation":"Selenium",
+                "src_location":"/src/assets/images/Skills/Selenium.png",
+                "level_knowledge":"Advance"
+            },
+            {   
+                "skill_id":18,
+                "industry":"Dev & Testing",
+                "skill_title" : "MySql",
+                "Abbriviation":"MySql",
+                "src_location":"/src/assets/images/Skills/Mysql.png",
+                "level_knowledge":"Intermediate"
+            },
+            {   
+                "skill_id":19,
+                "industry":"Dev (Frontend)",
+                "skill_title" : "Vite",
+                "Abbriviation":"Vite",
+                "src_location":"/src/assets/images/Skills/Vite.png",
+                "level_knowledge":"Intermediate"
+            },
+            {   
+                "skill_id":20,
+                "industry":"Dev (Frontend)",
+                "skill_title" : "PSQL",
+                "Abbriviation":"PostgreSQL",
+                "src_location":"/src/assets/images/Skills/PSql.png",
+                "level_knowledge":"Beginner"
+            },
+            {   
+                "skill_id":21,
+                "industry":"Dev (Frontend)",
+                "skill_title" : "Oracle DB",
+                "Abbriviation":"Oracle Database",
+                "src_location":"/src/assets/images/Skills/Oracledb.png",
+                "level_knowledge":"Beginner"
+            },
+            {   
+                "skill_id":22,
+                "industry":"Software Testing",
+                "skill_title" : "BDD",
+                "Abbriviation":"Behaviour Driven Development (Framework)",
+                "src_location":"/src/assets/images/Skills/BDD.png",
+                "level_knowledge":"Intermediate"
+            },
+            {   
+                "skill_id":23,
+                "industry":"Software Testing",
+                "skill_title" : "Maven",
+                "Abbriviation":"Maven",
+                "src_location":"/src/assets/images/Skills/Maven.png",
+                "level_knowledge":"Intermediate"
+            },
+            {   
+                "skill_id":24,
+                "industry":"Software Testing",
+                "skill_title" : "Jenkins",
+                "Abbriviation":"Jenkins",
+                "src_location":"/src/assets/images/Skills/Jenkins.jpg",
+                "level_knowledge":"Beginner"
+            },
+            {   
+                "skill_id":25,
+                "industry":"Software Testing",
+                "skill_title" : "JUnit 5",
+                "Abbriviation":"JUnit 5",
+                "src_location":"/src/assets/images/Skills/JUnit.png",
+                "level_knowledge":"Intermediate"
+            },
+            {   
+                "skill_id":26,
+                "industry":"Software Testing",
+                "skill_title" : "TestNG",
+                "Abbriviation":"TestNG",
+                "src_location":"/src/assets/images/Skills/TestNG.png",
+                "level_knowledge":"Intermediate"
+            },
+            {   
+                "skill_id":27,
+                "industry":"Software Testing",
+                "skill_title" : "REST Assured",
+                "Abbriviation":"REST Assured (Testing Framework)",
+                "src_location":"/src/assets/images/Skills/RestAssured.jpg",
+                "level_knowledge":"Intermediate"
+            }
+    
+    ]
+    
+
+}
