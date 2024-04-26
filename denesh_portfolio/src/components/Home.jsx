@@ -25,10 +25,10 @@ export default function Home() {
             </div>
             
             <div className="home-container" id="home" ref={homeRef}>
-                <h1>Hi <img lclassname="hand-hi" src="/dist/assets/icons/hi.png" alt="hi" /> !  I'm Denesh Anandathasan,<br/>Welcome to my portfolio!</h1><br />
+                <h1>Hi <img lclassname="hand-hi" src="/assets/icons/hi.png" alt="hi" /> !  I'm Denesh Anandathasan,<br/>Welcome to my portfolio!</h1><br />
                 <p className="home-text">I'm a Software Engineer passionate about innovation and quality. With expertise in QA testing, I'm now diving into full-stack development to push boundaries and make a lasting impact. Join me on this exciting journey through technology!</p> 
                   <div className="background-image-aboutme">
-                    <img className="mountain-sun-raise" src="/dist/assets/images/Backgrounds/MountainSunRaise.png" alt="" />
+                    <img className="mountain-sun-raise" src="/assets/images/Backgrounds/MountainSunRaise.png" alt="" />
                   </div>
             </div>
         
