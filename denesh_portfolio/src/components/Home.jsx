@@ -36,7 +36,7 @@ export default function Home() {
                 <h1>About Me</h1>
                 <AboutMe />
                 <div className="background-image-aboutme">
-                    <img className="mountain-sun-raise" src="/src/assets/images/Backgrounds/Trees.png" alt="" />
+                    <img className="mountain-sun-raise" src="/assets/images/Backgrounds/Trees.png" alt="" />
                   </div>
             </div>
 

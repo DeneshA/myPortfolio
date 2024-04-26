@@ -17,12 +17,12 @@ export default function Header() {
                         <ul className='social-ul'>
                             <li>
                                 <a href='https://github.com/DeneshA/myPortfolio' target='_blank'>
-                                    <img className="github-icon" src="/src/assets/icons/github.svg" alt="github" />
+                                    <img className="github-icon" src="/assets/icons/github.svg" alt="github" />
                                 </a>
                             </li>
                             <li>
                                 <a href='https://www.linkedin.com/in/deneshananthadasan' target='_blank'>
-                                    <img className="linkedin-icon" src="/src/assets/icons/linkedin.svg" alt="linkedin" />
+                                    <img className="linkedin-icon" src="/assets/icons/linkedin.svg" alt="linkedin" />
                                 </a>
                             </li>
                         </ul>
