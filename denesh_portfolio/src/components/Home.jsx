@@ -10,10 +10,11 @@ import profileData from '../data/profile.json'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithubAlt } from '@fortawesome/free-brands-svg-icons';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
+import ScrollToTop from './ScrollToTop'
 
 import '../sytles/Home.css'
 
-export default function Home ({elementRef})  {
+export default function Home ()  {
 
     // console.log(profileData.projects)
    
@@ -27,8 +28,8 @@ export default function Home ({elementRef})  {
             <div>
                 <Navbar />
             </div>
-            
-            <div className="home-container" id="home" ref={elementRef} >
+                <ScrollToTop />
+            <div className="home-container" id="home"  >
                 <h1>Hi <img lclassname="hand-hi" src="/assets/icons/hi.png" alt="hi" /> !  I'm Denesh Anandathasan,<br/>Welcome to my portfolio!</h1><br />
                 <p className="home-text">I'm a Software Engineer passionate about innovation and quality. With expertise in QA testing, I'm now diving into full-stack development to push boundaries and make a lasting impact. Join me on this exciting journey through technology!</p> 
                   <div className="background-image-aboutme">
@@ -36,7 +37,7 @@ export default function Home ({elementRef})  {
                   </div>
             </div>
         
-            <div className="aboutme-container" id="aboutme"  ref={elementRef}>
+            <div className="aboutme-container" id="aboutme"  >
                 <h1>About Me</h1>
                 <AboutMe  />
                 <div className="background-image-aboutme">

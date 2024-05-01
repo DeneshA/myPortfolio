@@ -29,6 +29,7 @@ flex-direction: row;
   display: flex;
   justify-content: flex-end;
   padding: 15px 5px 15px 15px;
+  
 }
 
 .nav-ul li{
@@ -43,11 +44,36 @@ p{
     background: transparent; /* Makes the background transparent */
     width: auto;
     border: none;            /* Removes any border */
-    color: #000;             /* Sets the text color to black */
+    color: var(--font-color-green);  /* Sets the text color to black */
     cursor: pointer;         /* Changes the cursor to a pointer when hovering */
 }
 
 .transparent-button:hover {
     text-decoration: underline; /* Optional: adds underline effect on hover */
+    color: var(--font-color-white);
+}
+
+/* Scroll to top button */
+.top-btn-position{
+  position: fixed;
+  bottom:15px ;
+  right: 20px;
+}
+
+.top-btn-style{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid var(--dark-bg-color-green);
+  background-color: var(--bg-color-green);
+  color: var(--dark-bg-color-green);
+  cursor: pointer;
+}
+
+.top-btn-style:hover{
+  animation: none;
+  background-color: var(--font-color-green);
+  color: var(--font-color-white);
+  border: 2px solid var(--light-dark_bg-color);
 }
 /* ----------------------------- */

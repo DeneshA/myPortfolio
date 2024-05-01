@@ -34,7 +34,7 @@ img {
 .work-container,
 .skillset-container{
     
-    height: 850px;
+    height: 120vh;
     /* min-height: 100vh;
     min-width: 100vh; */
 }
