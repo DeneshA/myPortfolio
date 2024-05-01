@@ -103,7 +103,7 @@ body{
 /* ---------------------------- */
 
 /* Navigation ----------------- */
-.nav-container{
+/* .nav-container{
 display: flex;
 flex-direction: row;
 }
@@ -117,14 +117,14 @@ flex-direction: row;
   width:30px;
   height:30px;
   top: 0;
-  /* background-color: blueviolet; */
+  background-color: blueviolet;
 }
 
 .nav-ul{
   list-style: none;
   display: flex;
   justify-content: flex-end;
-  /* padding: 15px 5px 15px 15px; */
+  padding: 15px 5px 15px 15px;
 }
 
 .nav-ul li{
@@ -134,5 +134,5 @@ flex-direction: row;
 
 p{
   margin: 0;
-}
+} */
 /* ----------------------------- */

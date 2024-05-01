@@ -28,7 +28,7 @@ export default function Header() {
                         </ul>
                     </div>
                 </div>
-                <Navbar />
+                {/* <Navbar /> */}
             </header>
 
 

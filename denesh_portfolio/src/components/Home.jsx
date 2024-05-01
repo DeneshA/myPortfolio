@@ -1,7 +1,11 @@
+import React,{useRef} from 'react'
 import Header from "./Header"
 import AboutMe from "./AboutMe"
 import SkillSet from './SkillSet'
-import React, { useRef } from "react"
+// import React  from "react"
+import Navbar from "./Navbar"
+import Experience from './Experiences'
+import Project from './Project'
 import profileData from '../data/profile.json'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithubAlt } from '@fortawesome/free-brands-svg-icons';
@@ -9,22 +13,22 @@ import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 
 import '../sytles/Home.css'
 
-export default function Home() {
+export default function Home ({elementRef})  {
 
-    console.log(profileData.projects)
-    const homeRef = useRef(null)
-    const aboutmeRef = useRef(null)
-    const skillsetRef = useRef(null)
-    const experience = useRef(null)
-    const project = useRef(null)
+    // console.log(profileData.projects)
+   
 
     return (
-        <div className="main-container">
+        <div className="main-container" >
+          
             <div className="header-container">
                 <Header />
             </div>
+            <div>
+                <Navbar />
+            </div>
             
-            <div className="home-container" id="home" ref={homeRef}>
+            <div className="home-container" id="home" ref={elementRef} >
                 <h1>Hi <img lclassname="hand-hi" src="/assets/icons/hi.png" alt="hi" /> !  I'm Denesh Anandathasan,<br/>Welcome to my portfolio!</h1><br />
                 <p className="home-text">I'm a Software Engineer passionate about innovation and quality. With expertise in QA testing, I'm now diving into full-stack development to push boundaries and make a lasting impact. Join me on this exciting journey through technology!</p> 
                   <div className="background-image-aboutme">
@@ -32,24 +36,24 @@ export default function Home() {
                   </div>
             </div>
         
-            <div className="aboutme-container" id="aboutme" ref={aboutmeRef} >
+            <div className="aboutme-container" id="aboutme"  ref={elementRef}>
                 <h1>About Me</h1>
-                <AboutMe />
+                <AboutMe  />
                 <div className="background-image-aboutme">
                     <img className="mountain-sun-raise" src="/assets/images/Backgrounds/Trees.png" alt="" />
                   </div>
             </div>
 
-            <div className="skillset-container" id="skillset" ref={skillsetRef} >
+            <div className="skillset-container" id="skills"  >
                 <h1>SKILLS</h1>
-                <SkillSet />
+                <SkillSet   />
             </div>
 
             {/* <div className="work-container">
                 <h1>EXPERIENCES</h1>
 
             </div> */}
-            <div className="project-container">
+            <div className="project-container" id="projects">
                 <h1>PROJECTS</h1>
                 <div className="list-projects">
                     {profileData.projects.map((project) => (

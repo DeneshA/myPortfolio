@@ -1,0 +1,53 @@
+:root {
+    --bg-color-green:#cdd3bd;
+    --font-color-green: #48522b;
+    --dark-bg-color-green:  #242424;
+    --font-color-white:white;
+    --light-dark_bg-color:#6d7556;
+}
+
+/* Navigation ----------------- */
+.nav-container{
+display: flex;
+flex-direction: row;
+}
+.ul-nav-div{
+  display: flex;
+  flex-direction: flex-end;
+}
+
+.bar-nav{
+  margin-top: 15px;
+  width:30px;
+  height:30px;
+  top: 0;
+  /* background-color: var(--bg-color-green); */
+}
+
+.nav-ul{
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px 5px 15px 15px;
+}
+
+.nav-ul li{
+  font-size: large;
+  margin: 5px 25px;
+}
+
+p{
+  margin: 0;
+}
+.transparent-button {
+    background: transparent; /* Makes the background transparent */
+    width: auto;
+    border: none;            /* Removes any border */
+    color: #000;             /* Sets the text color to black */
+    cursor: pointer;         /* Changes the cursor to a pointer when hovering */
+}
+
+.transparent-button:hover {
+    text-decoration: underline; /* Optional: adds underline effect on hover */
+}
+/* ----------------------------- */

@@ -1,10 +1,11 @@
-import { useState } from 'react'
-import reactLogo from '/assets/react.svg'
-import viteLogo from '/vite.svg'
+
+import React from 'react'
 import Home from './components/Home'
 import Main from './components/Main'
+// import { BrowserRouter as Router } from 'react-router-dom';
 
 import './App.css'
+import { Router } from 'react-router-dom'
 
 function App() {
  
@@ -13,8 +14,9 @@ function App() {
 
     <div>
       
-      <Home />
-     
+      {/* <Home /> */}
+      <Main/>
+    
     </div>
     
     </>
