@@ -1,0 +1,79 @@
+:root {
+    --bg-color-green:#cdd3bd;
+    --font-color-green: #48522b;
+    --dark-bg-color-green:  #242424;
+    --font-color-white:white;
+    --light-dark_bg-color:#6d7556;
+}
+
+/* Navigation ----------------- */
+.nav-container{
+display: flex;
+flex-direction: row;
+}
+.ul-nav-div{
+  display: flex;
+  flex-direction: flex-end;
+}
+
+.bar-nav{
+  margin-top: 15px;
+  width:30px;
+  height:30px;
+  top: 0;
+  /* background-color: var(--bg-color-green); */
+}
+
+.nav-ul{
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px 5px 15px 15px;
+  
+}
+
+.nav-ul li{
+  font-size: large;
+  margin: 5px 25px;
+}
+
+p{
+  margin: 0;
+}
+.transparent-button {
+    background: transparent; /* Makes the background transparent */
+    width: auto;
+    border: none;            /* Removes any border */
+    color: var(--font-color-green);  /* Sets the text color to black */
+    cursor: pointer;         /* Changes the cursor to a pointer when hovering */
+}
+
+.transparent-button:hover {
+    text-decoration: underline; /* Optional: adds underline effect on hover */
+    color: var(--font-color-white);
+}
+
+/* Scroll to top button */
+.top-btn-position{
+  position: fixed;
+  bottom:15px ;
+  right: 20px;
+}
+
+.top-btn-style{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid var(--dark-bg-color-green);
+  background-color: var(--bg-color-green);
+  color: var(--dark-bg-color-green);
+  cursor: pointer;
+}
+
+.top-btn-style:hover{
+  animation: none;
+  background-color: var(--font-color-green);
+  color: var(--font-color-white);
+  border: 2px solid var(--light-dark_bg-color);
+}
+/* ----------------------------- */
