@@ -41,15 +41,14 @@ p{
   margin: 0;
 }
 .transparent-button {
-    background: transparent; /* Makes the background transparent */
+    background: transparent; 
     width: auto;
-    border: none;            /* Removes any border */
-    color: var(--font-color-green);  /* Sets the text color to black */
-    cursor: pointer;         /* Changes the cursor to a pointer when hovering */
+    border: none;          
+    color: var(--font-color-green);  
+    cursor: pointer;         
 }
-
 .transparent-button:hover {
-    text-decoration: underline; /* Optional: adds underline effect on hover */
+    text-decoration: underline; 
     color: var(--font-color-white);
 }
 
@@ -77,3 +76,141 @@ p{
   border: 2px solid var(--light-dark_bg-color);
 }
 /* ----------------------------- */
+
+/* sidebar-burgur menu */
+
+
+#page-wrap {
+  text-align: center;
+  overflow: auto;
+  top: 45%;
+  position: relative;
+}
+
+.bm-item {
+  display: inline-block;
+
+  /* Our sidebar item styling */
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #d1d1d1;
+  transition: color 0.2s;
+}
+
+.bm-item:hover {
+  color: white;
+}
+
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  right: 36px;
+  top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: var(--dark-bg-color-green);
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: var(--light-dark_bg-color);
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: var(--font-color-green);
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background:var(--dark-bg-color-green);
+}
+
+/* ------------------ */
+/* For desktop and tablet screens */
+@media screen and (min-width: 768px) {
+  .nav-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .ul-nav-div {
+    display: flex;
+    flex-direction: flex-end;
+  }
+  .bar-nav {
+    display: none; /* Hide the sandwich menu icon */
+  }
+  .nav-ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 5px 15px 15px;
+  }
+  .nav-ul li {
+    font-size: large;
+    margin: 5px 25px;
+  }
+}
+
+/* For mobile screens */
+@media screen and (max-width: 767px) {
+  .nav-container {
+    display: none; /* Hide the navigation container */
+  }
+  .bar-nav {
+    margin-top: 15px;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    /* background-color: var(--bg-color-green); */
+    display: block; /* Display the sandwich menu icon */
+  }
+}
+
+/* Additional styling for the sandwich menu */
+#page-wrap {
+  text-align: center;
+  overflow: auto;
+  top: 45%;
+  position: relative;
+}
+
+.bm-item {
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #d1d1d1;
+  transition: color 0.2s;
+}
+
+.bm-item:hover {
+  color: white;
+}
+
+.bm-burger-button {
+  position: fixed;
+
+}
+
+

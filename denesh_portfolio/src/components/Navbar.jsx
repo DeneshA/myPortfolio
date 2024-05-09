@@ -4,6 +4,7 @@ import aboutMe from './AboutMe'
 import '../sytles/Navbar.css'
 import HamburgerMenu from './HamburgerMenu'
 import Home from './Home'
+import SideBar from './Sidebar'
 
 // import AboutMe from './AboutMe'
 
@@ -34,10 +35,11 @@ export default function Navbar() {
     <div className="nav-container">
     <div className="img-nav-div">
       {/* <img className="bar-nav" src="/assets/icons/bars.svg" alt="Navigation Toggle" /> */}
-     
+    {/* <SideBar pageWrapId={"navigation"} outerContainer={"Navbar"} /> */}
     </div>
     <div className='navigation'>
     {/* <ul className={`nav-ul" ${hamburgerOpen ? 'open' : '' }`}> */}
+    <SideBar className="sidebar" pageWrapId={"navigation"} outerContainer={"nav-container"} />
     <ul className="nav-ul">
       <li>
         <button  className='btn-home transparent-button' onClick={() => scrollToSection('home')}>HOME</button>
