@@ -148,3 +148,69 @@ p{
 }
 
 /* ------------------ */
+/* For desktop and tablet screens */
+@media screen and (min-width: 768px) {
+  .nav-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .ul-nav-div {
+    display: flex;
+    flex-direction: flex-end;
+  }
+  .bar-nav {
+    display: none; /* Hide the sandwich menu icon */
+  }
+  .nav-ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 5px 15px 15px;
+  }
+  .nav-ul li {
+    font-size: large;
+    margin: 5px 25px;
+  }
+}
+
+/* For mobile screens */
+@media screen and (max-width: 767px) {
+  .nav-container {
+    display: none; /* Hide the navigation container */
+  }
+  .bar-nav {
+    margin-top: 15px;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    /* background-color: var(--bg-color-green); */
+    display: block; /* Display the sandwich menu icon */
+  }
+}
+
+/* Additional styling for the sandwich menu */
+#page-wrap {
+  text-align: center;
+  overflow: auto;
+  top: 45%;
+  position: relative;
+}
+
+.bm-item {
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #d1d1d1;
+  transition: color 0.2s;
+}
+
+.bm-item:hover {
+  color: white;
+}
+
+.bm-burger-button {
+  position: fixed;
+
+}
+
+
